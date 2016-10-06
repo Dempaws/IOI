@@ -1,0 +1,27 @@
+CC := 		gcc -g
+
+HEADER :=	-I header/
+
+CFLAGS := 	-W -Wall -Wextra $(HEADER)
+
+SRC := 		main.c \
+		src/robot.c
+
+OBJ := 		$(SRC:.c=.o)
+
+NAME := 	IOI
+
+RM := 		rm -rf
+
+all:		$(NAME) clean
+
+$(NAME):	$(OBJ)
+		$(CC) -o $(NAME) $(OBJ) $(CFLAGS)
+
+clean:
+		$(RM) $(OBJ) *~
+
+fclean:		clean
+		$(RM) $(NAME)
+
+re:		fclean all

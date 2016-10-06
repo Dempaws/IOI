@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int déplacer(int a, int b)
+{
+  printf("%d se retrouve à la place %d\n", a, b);
+  return (0);
+}

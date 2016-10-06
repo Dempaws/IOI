@@ -1,0 +1,1 @@
+int	deplacer(int, int);
