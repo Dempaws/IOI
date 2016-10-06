@@ -5,15 +5,21 @@
 int	main(int ac, char **av)
 {
   int i;
-  
-  i = 0;
+  int j;
+
+  j = 0;
   ac = ac;
   av = av;
   ramasser();
-  while (i++ < 15)
-    droite();
-  deposer();
-  while (i-- > 0)
-    gauche();
+  while (j++ < 20)
+    {
+      i = 0;
+      while (i++ < 15)
+	droite();
+      deposer();
+      while (i-- > 0)
+	gauche();
+    }
   return (0);
 }
+  
