@@ -13,7 +13,10 @@ int	main(int ac, char **av)
     {
       j = 0;
       while (j++ < 20)
-	printf("0X");
+	if (i % 2)
+	  printf("0X");
+	else
+	  printf("XO");
       printf("\n");
     }
   return (0);
