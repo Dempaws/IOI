@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int	haut()
+{
+  printf("haut");
+  return 0;
+}
+
+int	bas()
+{
+  printf("bas");
+  return 0;
+}
+
+int	gauche()
+{
+  printf("ghuche");
+  return 0;
+}
+
+int	droite()
+{
+  printf("droite");
+  return 0;
+}
