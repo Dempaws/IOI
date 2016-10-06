@@ -19,7 +19,7 @@ $(NAME):	$(OBJ)
 		$(CC) -o $(NAME) $(OBJ) $(CFLAGS)
 
 clean:
-		$(RM) $(OBJ) *~
+		$(RM) $(OBJ) *~ src/*~ header/*~
 
 fclean:		clean
 		$(RM) $(NAME)
