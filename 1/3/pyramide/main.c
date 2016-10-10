@@ -3,6 +3,8 @@
 
 int	main(int ac, char **av)
 {
+  int	i;
+
   ac = ac;
   av = av;
   return (0);
