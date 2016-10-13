@@ -10,6 +10,6 @@ int	main(int ac, char **av)
   av = av;
 
   printf("%d\n", i * i);
-  printf("%d\n", i * 2);
+  printf("%d\n", i * 4);
   return (0);
 }
